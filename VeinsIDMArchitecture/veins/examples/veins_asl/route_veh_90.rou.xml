@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri 21 Feb 2020 03:20:42 PM PST by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="asl_net.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/anthl10/Programming/sumo/tests/complex/tutorial/manhattan/data/asl_simple_net.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="/home/anthl10/Programming/sumo/tests/complex/tutorial/manhattan/data/asl_routes_simple.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+departPos="last"
+
+</configuration>
+
+DEPART SPEED IS KEY FOR THE NUMBER OF INITIAL VEHICLES IN THE ROADS
+-->
+<!-- carFollowModel="IDM" --> 
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ASL_VTYPE" length="5.0" minGap="2.0" carFollowModel="IDM" accel="1" decel="3" tau="1.5" delta="32" maxSpeed="15" speedFactor="1.0" speedDev="0"/>
+    <route id="eastwest" color="1,1,0" edges="H4G4 G4F4"/>
+    <route id="northsouth" color="1,1,0" edges="G5G4 G4G3"/>
+
+     <vehicle id="0" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="0.000000" color="1,1,0"/>
+<vehicle id="1" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="7.000000" color="1,1,0"/>
+<vehicle id="2" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="14.000000" color="1,1,0"/>
+<vehicle id="3" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="21.000000" color="1,1,0"/>
+<vehicle id="4" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="28.000000" color="1,1,0"/>
+<vehicle id="5" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="35.000000" color="1,1,0"/>
+<vehicle id="6" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="42.000000" color="1,1,0"/>
+<vehicle id="7" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="49.000000" color="1,1,0"/>
+<vehicle id="8" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="56.000000" color="1,1,0"/>
+<vehicle id="9" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="63.000000" color="1,1,0"/>
+<vehicle id="10" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="70.000000" color="1,1,0"/>
+<vehicle id="11" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="77.000000" color="1,1,0"/>
+<vehicle id="12" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="84.000000" color="1,1,0"/>
+<vehicle id="13" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="91.000000" color="1,1,0"/>
+<vehicle id="14" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="98.000000" color="1,1,0"/>
+<vehicle id="15" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="105.000000" color="1,1,0"/>
+<vehicle id="16" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="112.000000" color="1,1,0"/>
+<vehicle id="17" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="119.000000" color="1,1,0"/>
+<vehicle id="18" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="126.000000" color="1,1,0"/>
+<vehicle id="19" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="133.000000" color="1,1,0"/>
+<vehicle id="20" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="140.000000" color="1,1,0"/>
+<vehicle id="21" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="147.000000" color="1,1,0"/>
+<vehicle id="22" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="154.000000" color="1,1,0"/>
+<vehicle id="23" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="161.000000" color="1,1,0"/>
+<vehicle id="24" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="168.000000" color="1,1,0"/>
+<vehicle id="25" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="175.000000" color="1,1,0"/>
+<vehicle id="26" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="182.000000" color="1,1,0"/>
+<vehicle id="27" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="189.000000" color="1,1,0"/>
+<vehicle id="28" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="196.000000" color="1,1,0"/>
+<vehicle id="29" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="203.000000" color="1,1,0"/>
+<vehicle id="30" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="210.000000" color="1,1,0"/>
+<vehicle id="31" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="217.000000" color="1,1,0"/>
+<vehicle id="32" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="224.000000" color="1,1,0"/>
+<vehicle id="33" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="231.000000" color="1,1,0"/>
+<vehicle id="34" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="238.000000" color="1,1,0"/>
+<vehicle id="35" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="245.000000" color="1,1,0"/>
+<vehicle id="36" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="252.000000" color="1,1,0"/>
+<vehicle id="37" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="259.000000" color="1,1,0"/>
+<vehicle id="38" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="266.000000" color="1,1,0"/>
+<vehicle id="39" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="273.000000" color="1,1,0"/>
+<vehicle id="40" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="280.000000" color="1,1,0"/>
+<vehicle id="41" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="287.000000" color="1,1,0"/>
+<vehicle id="42" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="294.000000" color="1,1,0"/>
+<vehicle id="43" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="301.000000" color="1,1,0"/>
+<vehicle id="44" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="308.000000" color="1,1,0"/>
+<vehicle id="45" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="315.000000" color="1,1,0"/>
+<vehicle id="46" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="322.000000" color="1,1,0"/>
+<vehicle id="47" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="329.000000" color="1,1,0"/>
+<vehicle id="48" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="336.000000" color="1,1,0"/>
+<vehicle id="49" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="343.000000" color="1,1,0"/>
+<vehicle id="50" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="350.000000" color="1,1,0"/>
+<vehicle id="51" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="357.000000" color="1,1,0"/>
+<vehicle id="52" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="364.000000" color="1,1,0"/>
+<vehicle id="53" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="371.000000" color="1,1,0"/>
+<vehicle id="54" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="378.000000" color="1,1,0"/>
+<vehicle id="55" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="385.000000" color="1,1,0"/>
+<vehicle id="56" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="392.000000" color="1,1,0"/>
+<vehicle id="57" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="399.000000" color="1,1,0"/>
+<vehicle id="58" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="406.000000" color="1,1,0"/>
+<vehicle id="59" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="413.000000" color="1,1,0"/>
+<vehicle id="60" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="420.000000" color="1,1,0"/>
+<vehicle id="61" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="427.000000" color="1,1,0"/>
+<vehicle id="62" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="434.000000" color="1,1,0"/>
+<vehicle id="63" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="441.000000" color="1,1,0"/>
+<vehicle id="64" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="448.000000" color="1,1,0"/>
+<vehicle id="65" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="455.000000" color="1,1,0"/>
+<vehicle id="66" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="462.000000" color="1,1,0"/>
+<vehicle id="67" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="469.000000" color="1,1,0"/>
+<vehicle id="68" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="476.000000" color="1,1,0"/>
+<vehicle id="69" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="483.000000" color="1,1,0"/>
+<vehicle id="70" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="490.000000" color="1,1,0"/>
+<vehicle id="71" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="497.000000" color="1,1,0"/>
+<vehicle id="72" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="504.000000" color="1,1,0"/>
+<vehicle id="73" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="511.000000" color="1,1,0"/>
+<vehicle id="74" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="518.000000" color="1,1,0"/>
+<vehicle id="75" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="525.000000" color="1,1,0"/>
+<vehicle id="76" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="532.000000" color="1,1,0"/>
+<vehicle id="77" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="539.000000" color="1,1,0"/>
+<vehicle id="78" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="546.000000" color="1,1,0"/>
+<vehicle id="79" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="553.000000" color="1,1,0"/>
+<vehicle id="80" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="560.000000" color="1,1,0"/>
+<vehicle id="81" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="567.000000" color="1,1,0"/>
+<vehicle id="82" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="574.000000" color="1,1,0"/>
+<vehicle id="83" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="581.000000" color="1,1,0"/>
+<vehicle id="84" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="588.000000" color="1,1,0"/>
+<vehicle id="85" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="595.000000" color="1,1,0"/>
+<vehicle id="86" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="602.000000" color="1,1,0"/>
+<vehicle id="87" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="609.000000" color="1,1,0"/>
+<vehicle id="88" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="616.000000" color="1,1,0"/>
+<vehicle id="89" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="623.000000" color="1,1,0"/>
+
+</routes>

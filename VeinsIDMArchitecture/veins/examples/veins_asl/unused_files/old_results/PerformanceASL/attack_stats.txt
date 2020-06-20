@@ -1,0 +1,1067 @@
+Logging to /tmp/sumo-launchd.log
+Listening on port 9999
+Connection from 127.0.0.1 on port 47958
+Handling connection from 127.0.0.1 on port 47958
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_10.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-609UGN
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 47281
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 47281, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 47281 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 47281 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>1</exit-code>
+	<start>1588662400</start>
+	<end>1588662635</end>
+	<status>Exited with error code 1</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 47281 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (5ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (48ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Error: tcpip::Socket::recvAndCheck @ recv: peer shutdown
+Quitting (on error).
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 47958
+Connection from 127.0.0.1 on port 47964
+Handling connection from 127.0.0.1 on port 47964
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_10.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-Dhwbbh
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 40865
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 40865, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 40865 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 40865 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588662667</start>
+	<end>1588662727</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 40865 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (3ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (30ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 59492ms
+ Real time factor: 20.1708
+ UPS: 211.541048
+Vehicles: 
+ Inserted: 104
+ Running: 10
+ Waiting: 0
+Teleports: 1 (Jam: 1)
+Statistics (avg):
+ RouteLength: 910.30
+ Duration: 126.93
+ WaitingTime: 40.67
+ TimeLoss: -154.68
+ DepartDelay: -0.30
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '1' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=75.00.
+Warning: Vehicle '2' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=85.00.
+Warning: Vehicle '3' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=86.00.
+Warning: Vehicle '15.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=133.00.
+Warning: Vehicle '30.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=195.00.
+Warning: Vehicle '11.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=205.00.
+Warning: Vehicle '31.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=205.00.
+Warning: Vehicle '24.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=254.00.
+Warning: Vehicle '25.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=266.00.
+Warning: Vehicle '38.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=315.00.
+Warning: Vehicle '39.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=325.00.
+Warning: Vehicle '52.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=376.00.
+Warning: Vehicle '33.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=385.00.
+Warning: Vehicle '53.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=385.00.
+Warning: Vehicle '46.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=434.00.
+Warning: Vehicle '48.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=445.00.
+Warning: Vehicle '47.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=445.00.
+Warning: Vehicle '60.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=495.00.
+Warning: Vehicle '61.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=505.00.
+Warning: Vehicle '75.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=554.00.
+Warning: Teleporting vehicle '62.000000'; waited too long (jam), lane=':G4_4_0', time=808.00.
+Warning: Vehicle '62.000000' ends teleporting on edge 'G4F4', time 808.00.
+Error: Answered with error to command 0xc4: The vehicle '73.000000' to add already exists.
+Warning: Vehicle '66.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=914.00.
+Warning: Vehicle '67.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=925.00.
+Warning: Vehicle '80.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=973.00.
+Warning: Vehicle '81.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=985.00.
+Warning: Vehicle '95.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1034.00.
+Warning: Vehicle '96.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1046.00.
+Warning: Vehicle '108.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1096.00.
+Warning: Vehicle '88.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1105.00.
+Warning: Vehicle '89.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1106.00.
+Warning: Vehicle '102.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1154.00.
+Warning: Vehicle '104.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1165.00.
+Warning: Vehicle '103.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1166.00.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 47964
+Connection from 127.0.0.1 on port 47970
+Handling connection from 127.0.0.1 on port 47970
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_20.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-oyANb9
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 51525
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 51525, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 51525 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 51525 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588663539</start>
+	<end>1588663668</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 51525 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (3ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (29ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 128764ms
+ Real time factor: 9.31937
+ UPS: 180.477463
+Vehicles: 
+ Inserted: 149
+ Running: 20
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 903.26
+ Duration: 164.86
+ WaitingTime: 15.29
+ TimeLoss: 63.73
+ DepartDelay: 6.07
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '7' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=76.00.
+Warning: Vehicle '6' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=85.00.
+Warning: Vehicle '5' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=86.00.
+Warning: Vehicle '23.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=135.00.
+Warning: Vehicle '11' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=145.00.
+Warning: Vehicle '30.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=192.00.
+Warning: Vehicle '18' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=206.00.
+Warning: Vehicle '37.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=254.00.
+Warning: Vehicle '26.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=266.00.
+Warning: Vehicle '45.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=314.00.
+Warning: Vehicle '33.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=326.00.
+Warning: Vehicle '52.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=373.00.
+Warning: Vehicle '59.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=435.00.
+Warning: Vehicle '67.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=495.00.
+Warning: Vehicle '74.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=555.00.
+Warning: Vehicle '61.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=566.00.
+Warning: Vehicle '81.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=616.00.
+Warning: Vehicle '69.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=625.00.
+Warning: Vehicle '88.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=674.00.
+Warning: Vehicle '76.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=686.00.
+Warning: Vehicle '95.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=735.00.
+Warning: Vehicle '102.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=795.00.
+Warning: Vehicle '91.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=807.00.
+Warning: Vehicle '110.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=855.00.
+Warning: Vehicle '99.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=866.00.
+Warning: Vehicle '117.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=914.00.
+Warning: Vehicle '124.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=974.00.
+Warning: Vehicle '112.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=985.00.
+Warning: Vehicle '132.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1035.00.
+Warning: Vehicle '138.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1094.00.
+Warning: Vehicle '126.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1106.00.
+Warning: Vehicle '149.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1155.00.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 47970
+Connection from 127.0.0.1 on port 47976
+Handling connection from 127.0.0.1 on port 47976
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_30.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-D7jQ1Z
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 43403
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 43403, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 43403 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 43403 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588663863</start>
+	<end>1588664187</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 43403 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (2ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (51ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 323497ms
+ Real time factor: 3.70946
+ UPS: 104.340999
+Vehicles: 
+ Inserted: 151
+ Running: 31
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 876.03
+ Duration: 228.91
+ WaitingTime: 16.29
+ TimeLoss: 126.86
+ DepartDelay: 19.86
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '7' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=75.00.
+Warning: Vehicle '6' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=86.00.
+Warning: Vehicle '25' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=138.00.
+Warning: Vehicle '36.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=189.00.
+Warning: Vehicle '39.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=240.00.
+Warning: Vehicle '46.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=300.00.
+Warning: Vehicle '38.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=386.00.
+Warning: Vehicle '54.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=506.00.
+Warning: Vehicle '59.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=566.00.
+Warning: Vehicle '62.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=625.00.
+Warning: Vehicle '88.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=806.00.
+Warning: Vehicle '95.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=865.00.
+Warning: Vehicle '114.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1046.00.
+Warning: Vehicle '129.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1106.00.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 47976
+Connection from 127.0.0.1 on port 47982
+Handling connection from 127.0.0.1 on port 47982
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_40.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-A6L2An
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 60091
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 60091, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 60091 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 60091 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588664241</start>
+	<end>1588665156</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 60091 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (5ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (74ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 914722ms
+ Real time factor: 1.31187
+ UPS: 52.875081
+Vehicles: 
+ Inserted: 141
+ Running: 40
+ Waiting: 0
+Teleports: 1 (Jam: 1)
+Statistics (avg):
+ RouteLength: 818.46
+ Duration: 355.81
+ WaitingTime: 74.86
+ TimeLoss: 263.15
+ DepartDelay: -0.28
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Invalid departPos 5000.00 given for vehicle '0'. Inserting at lane end instead.
+Warning: Vehicle '1' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=19.00.
+Warning: Vehicle '21' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=205.00.
+Warning: Vehicle '14' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=265.00.
+Warning: Vehicle '44.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=386.00.
+Warning: Vehicle '74.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=446.00.
+Warning: Vehicle '60.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=567.00.
+Warning: Vehicle '46.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=687.00.
+Warning: Teleporting vehicle '46.000000'; waited too long (jam), lane=':G4_4_0', time=988.00.
+Warning: Vehicle '46.000000' ends teleporting on edge 'G4F4', time 988.00.
+Error: Answered with error to command 0xc4: The vehicle '87.000000' to add already exists.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 47982
+Connection from 127.0.0.1 on port 47988
+Handling connection from 127.0.0.1 on port 47988
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_50.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-sfXHNa
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 58429
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 58429, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 58429 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 58429 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588665368</start>
+	<end>1588666265</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 58429 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (16ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (66ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 896107ms
+ Real time factor: 1.33913
+ UPS: 67.036637
+Vehicles: 
+ Inserted: 183
+ Running: 50
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 832.49
+ Duration: 366.26
+ WaitingTime: 16.68
+ TimeLoss: 275.31
+ DepartDelay: -0.31
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '49' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=23.00.
+Warning: Vehicle '42' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=85.00.
+Warning: Vehicle '35' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=145.00.
+Warning: Vehicle '21' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=265.00.
+Warning: Vehicle '73.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=686.00.
+Warning: Vehicle '52.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=866.00.
+Warning: Vehicle '146.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=925.00.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 47988
+Connection from 127.0.0.1 on port 47994
+Handling connection from 127.0.0.1 on port 47994
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_60.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-k6Sh6b
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 43741
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 43741, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 43741 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 43741 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588666307</start>
+	<end>1588667339</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 43741 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (6ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (120ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 1030816ms
+ Real time factor: 1.16413
+ UPS: 70.195845
+Vehicles: 
+ Inserted: 158
+ Running: 60
+ Waiting: 0
+Teleports: 1 (Jam: 1)
+Statistics (avg):
+ RouteLength: 742.66
+ Duration: 410.37
+ WaitingTime: 38.22
+ TimeLoss: 320.14
+ DepartDelay: -0.20
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '52' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=86.00.
+Warning: Vehicle '110.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=626.00.
+Warning: Vehicle '103.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=686.00.
+Warning: Vehicle '96.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=746.00.
+Warning: Vehicle '90.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=805.00.
+Warning: Teleporting vehicle '90.000000'; waited too long (jam), lane=':G4_4_0', time=1106.00.
+Warning: Vehicle '90.000000' ends teleporting on edge 'G4F4', time 1106.00.
+Error: Answered with error to command 0xc4: The vehicle '151.000000' to add already exists.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 47994
+Connection from 127.0.0.1 on port 48000
+Handling connection from 127.0.0.1 on port 48000
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_70.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-vHNwS2
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 58431
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 58431, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 58431 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 58431 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588667576</start>
+	<end>1588668396</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 58431 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (5ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (96ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 819433ms
+ Real time factor: 1.46443
+ UPS: 102.369565
+Vehicles: 
+ Inserted: 197
+ Running: 70
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 781.29
+ Duration: 488.10
+ WaitingTime: 61.59
+ TimeLoss: 396.33
+ DepartDelay: 1.43
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '69' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=20.00.
+Warning: Vehicle '12' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=566.00.
+Warning: Vehicle '5' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=626.00.
+Warning: Vehicle '139.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=685.00.
+Warning: Vehicle '132.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=746.00.
+Warning: Vehicle '125.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=806.00.
+Warning: Vehicle '118.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=866.00.
+Warning: Vehicle '111.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=926.00.
+Warning: Vehicle '104.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=986.00.
+Warning: Vehicle '97.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1046.00.
+Warning: Vehicle '90.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1106.00.
+Warning: Vehicle '83.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1166.00.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 48000
+Connection from 127.0.0.1 on port 48006
+Handling connection from 127.0.0.1 on port 48006
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_80.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-rmhr9e
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 44093
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 44093, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 44093 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 44093 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588668460</start>
+	<end>1588669443</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 44093 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (3ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (26ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 982428ms
+ Real time factor: 1.22146
+ UPS: 97.534883
+Vehicles: 
+ Inserted: 203
+ Running: 80
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 734.56
+ Duration: 544.47
+ WaitingTime: 84.46
+ TimeLoss: 455.82
+ DepartDelay: 2.05
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '79' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=14.00.
+Warning: Vehicle '32' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=506.00.
+Warning: Vehicle '25' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=566.00.
+Warning: Vehicle '18' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=626.00.
+Warning: Vehicle '11' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=686.00.
+Warning: Vehicle '158.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=806.00.
+Warning: Vehicle '138.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=986.00.
+Warning: Vehicle '124.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1106.00.
+Warning: Vehicle '117.000000' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1166.00.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 48006
+Connection from 127.0.0.1 on port 48012
+Handling connection from 127.0.0.1 on port 48012
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 362
+Got TraCI command of length 357
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_90.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-JxG4c7
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 52507
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 52507, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 52507 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 52507 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588669476</start>
+	<end>1588670177</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 52507 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (4ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (40ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 699980ms
+ Real time factor: 1.71433
+ UPS: 154.780137
+Vehicles: 
+ Inserted: 178
+ Running: 90
+ Waiting: 0
+Teleports: 1 (Jam: 1)
+Statistics (avg):
+ RouteLength: 595.90
+ Duration: 615.02
+ WaitingTime: 228.64
+ TimeLoss: 504.61
+ DepartDelay: 0.00
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '88' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=19.00.
+Warning: Vehicle '87' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=19.00.
+Warning: Vehicle '86' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=20.00.
+Warning: Vehicle '89' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=26.00.
+Warning: Vehicle '58' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=386.00.
+Warning: Vehicle '51' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=445.00.
+Warning: Vehicle '37' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=565.00.
+Warning: Vehicle '30' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=626.00.
+Warning: Teleporting vehicle '30'; waited too long (jam), lane=':G4_4_0', time=927.00.
+Warning: Vehicle '30' ends teleporting on edge 'G4F4', time 927.00.
+Error: Answered with error to command 0xc4: The vehicle '121.000000' to add already exists.
+Warning: Vehicle '1' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=1166.00.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 48012
+Connection from 127.0.0.1 on port 48018
+Handling connection from 127.0.0.1 on port 48018
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 363
+Got TraCI command of length 358
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_100.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-e2AzQw
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 54445
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 54445, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 54445 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 54445 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588670220</start>
+	<end>1588671047</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 54445 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (3ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (45ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 825675ms
+ Real time factor: 1.45336
+ UPS: 144.575045
+Vehicles: 
+ Inserted: 185
+ Running: 100
+ Waiting: 0
+Teleports: 1 (Jam: 1)
+Statistics (avg):
+ RouteLength: 515.40
+ Duration: 698.40
+ WaitingTime: 316.38
+ TimeLoss: 573.12
+ DepartDelay: 0.00
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '96' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=24.00.
+Warning: Vehicle '97' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=25.00.
+Warning: Teleporting vehicle '69'; waited too long (jam), lane=':G4_4_0', time=688.00.
+Warning: Vehicle '69' ends teleporting on edge 'G4F4', time 688.00.
+Error: Answered with error to command 0xc4: The vehicle '170.000000' to add already exists.
+Warning: Vehicle '46' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=865.00.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 48018
+Connection from 127.0.0.1 on port 48024
+Handling connection from 127.0.0.1 on port 48024
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 363
+Got TraCI command of length 358
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_110.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-eJf6Tl
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 47201
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 47201, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 47201 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 47201 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588671103</start>
+	<end>1588671974</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 47201 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (11ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (99ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 869789ms
+ Real time factor: 1.37964
+ UPS: 150.198496
+Vehicles: 
+ Inserted: 176
+ Running: 110
+ Waiting: 0
+Teleports: 1 (Jam: 1)
+Statistics (avg):
+ RouteLength: 378.90
+ Duration: 725.62
+ WaitingTime: 423.03
+ TimeLoss: 621.12
+ DepartDelay: 0.00
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+Warning: Vehicle '106' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=25.00.
+Warning: Vehicle '105' performs emergency braking with decel=-9.00 wished=3.00 severity=1.00, time=26.00.
+Warning: Teleporting vehicle '107'; waited too long (jam), lane=':G4_4_0', time=327.00.
+Warning: Vehicle '107' ends teleporting on edge 'G4F4', time 327.00.
+Error: Answered with error to command 0xc4: The vehicle '218.000000' to add already exists.
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 48024
+Connection from 127.0.0.1 on port 48030
+Handling connection from 127.0.0.1 on port 48030
+Got TraCI message of length 2
+Got TraCI command of length 1
+Got TraCI command 0x0
+Got CMD_GETVERSION
+Got TraCI message of length 363
+Got TraCI command of length 358
+Got TraCI command 0x75
+Got CMD_FILE_SEND for "sumo-launchd.launch.xml"
+Got CMD_FILE_SEND with data "<launch>
+  <copy file="asl_simple2.net.xml"/>
+  <copy file="route_veh_120.rou.xml"/>
+  <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+  <copy file="manhattan_asl.sumo.cfg" type="config"/>
+  <basedir path="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/"/>
+  <seed value="0"/>
+</launch>
+"
+Creating temporary directory...
+Temporary dir is /tmp/sumo-launchd-tmp-CLxwgx
+Base dir is /home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/
+Seed is 0
+Finding free port number...
+Claiming lock on port
+...found port 53561
+Starting SUMO (sumo -c manhattan_asl.sumo.cfg) on port 53561, seed 0
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 53561 (try 1)
+Error ([Errno 111] Connection refused)
+Connecting to SUMO (sumo -c manhattan_asl.sumo.cfg) on port 53561 (try 2)
+Releasing lock on port
+Starting proxy mode
+Done with proxy mode
+Done with proxy mode, killing SUMO
+Done running SUMO
+Cleaning up
+Result: "<?xml version="1.0"?>
+<status>
+	<exit-code>0</exit-code>
+	<start>1588672076</start>
+	<end>1588673147</end>
+	<status>Done.</status>
+	<stdout><![CDATA[Loading configuration ... done.
+***Starting server on port 53561 ***
+Loading net-file from 'asl_simple2.net.xml' ... done (13ms).
+Loading additional-files from 'loop_detectors_asl2.add.xml' ... done (87ms).
+Loading done.
+Simulation version 1.4.0 started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 1070523ms
+ Real time factor: 1.12095
+ UPS: 132.340921
+Vehicles: 
+ Inserted: 151
+ Running: 120
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 186.40
+ Duration: 584.06
+ WaitingTime: 434.90
+ TimeLoss: 548.22
+ DepartDelay: 0.00
+
+]]></stdout>
+	<stderr><![CDATA[Warning: Missing yellow phase in tlLogic 'G4', program '0' for tl-index 3 when switching to phase 1
+]]></stderr>
+</status>
+"
+Closing connection from 127.0.0.1 on port 48030

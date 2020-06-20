@@ -1,0 +1,11 @@
+<map id="veins::TraCIMobility::getCommandInterface" name="veins::TraCIMobility::getCommandInterface">
+<area shape="rect" id="node2" href="$classveins_1_1_demo_base_appl_layer.html#acca47f0d4a756e78ca29d2e4271af396" title="veins::DemoBaseApplLayer\l::initialize" alt="" coords="212,129,396,171"/>
+<area shape="rect" id="node3" href="$classveins_1_1_my_veins_app.html#a73f5b68ba9bb4b66b2a3fecf875be114" title="veins::MyVeinsApp::\linitialize" alt="" coords="469,5,612,47"/>
+<area shape="rect" id="node4" href="$classveins_1_1_tra_c_i_demo11p.html#ac52eef213e4579f7d5f671385b506b78" title="veins::TraCIDemo11p\l::initialize" alt="" coords="465,71,616,112"/>
+<area shape="rect" id="node5" href="$classveins_1_1_a_s_l_app_veh.html#af0fbca579dc4ce07ce8faf22b4f92b77" title="veins::ASLAppVeh::initialize" alt="" coords="447,137,634,163"/>
+<area shape="rect" id="node7" href="$classveins_1_1_a_s_l_app_r_s_u_attack.html#a54d83a8a2c650b831636fec3531bcc27" title="veins::ASLAppRSUAttack\l::initialize" alt="" coords="453,188,629,229"/>
+<area shape="rect" id="node9" href="$classveins_1_1_a_s_l_app_r_s_u.html#a70b22e6f6cf35b0ef07d8cedb491a40b" title="veins::ASLAppRSU::initialize" alt="" coords="444,254,637,281"/>
+<area shape="rect" id="node6" href="$classveins_1_1_a_s_l_app_veh.html#a51efb06e26d0582851bc1f4e02229481" title="veins::ASLAppVeh::initialize" alt="" coords="689,137,875,163"/>
+<area shape="rect" id="node8" href="$classveins_1_1_a_s_l_app_r_s_u_attack.html#a612420cfb5d12b8f0be3c84cec41b4be" title="veins::ASLAppRSUAttack\l::initialize" alt="" coords="694,188,870,229"/>
+<area shape="rect" id="node10" href="$classveins_1_1_a_s_l_app_r_s_u.html#a9d6d7b405f39dcde60a50591714cc0a7" title="veins::ASLAppRSU::initialize" alt="" coords="685,254,879,281"/>
+</map>

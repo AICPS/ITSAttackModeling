@@ -1,0 +1,11 @@
+<map id="veins::TraCITrafficLightInterface::setExternalId" name="veins::TraCITrafficLightInterface::setExternalId">
+<area shape="rect" id="node2" href="$classveins_1_1_a_s_l_app_r_s_u_attack.html#a54d83a8a2c650b831636fec3531bcc27" title="veins::ASLAppRSUAttack\l::initialize" alt="" coords="221,5,397,47"/>
+<area shape="rect" id="node4" href="$classveins_1_1_a_s_l_app_r_s_u.html#a70b22e6f6cf35b0ef07d8cedb491a40b" title="veins::ASLAppRSU::initialize" alt="" coords="212,71,405,98"/>
+<area shape="rect" id="node6" href="$classveins_1_1_tra_c_i_traffic_light_interface.html#a1982aa38012302c8e0175d11ff0feec5" title="Set parameters for connection to TraCI. " alt="" coords="229,123,388,164"/>
+<area shape="rect" id="node3" href="$classveins_1_1_a_s_l_app_r_s_u_attack.html#a612420cfb5d12b8f0be3c84cec41b4be" title="veins::ASLAppRSUAttack\l::initialize" alt="" coords="463,5,639,47"/>
+<area shape="rect" id="node5" href="$classveins_1_1_a_s_l_app_r_s_u.html#a9d6d7b405f39dcde60a50591714cc0a7" title="veins::ASLAppRSU::initialize" alt="" coords="454,71,647,98"/>
+<area shape="rect" id="node7" href="$classveins_1_1_tra_c_i_scenario_manager.html#a5389f3fc889b1fe3fd126c33a7d9ae36" title="veins::TraCIScenarioManager\l::init_traci" alt="" coords="453,123,648,164"/>
+<area shape="rect" id="node8" href="$classveins_1_1_tra_c_i_scenario_manager.html#a86a0b91aab8823c087c33b99f3a06b1f" title="veins::TraCIScenarioManager\l::handleSelfMsg" alt="" coords="696,89,891,131"/>
+<area shape="rect" id="node10" href="$classveins_1_1_tra_c_i_scenario_manager_launchd.html#a5547124fea3c83e5492a9cdb029948c9" title="veins::TraCIScenarioManager\lLaunchd::init_traci" alt="" coords="696,155,891,196"/>
+<area shape="rect" id="node9" href="$classveins_1_1_tra_c_i_scenario_manager.html#ac66ce95372a25d1860ad24748363090d" title="veins::TraCIScenarioManager\l::handleMessage" alt="" coords="939,89,1133,131"/>
+</map>

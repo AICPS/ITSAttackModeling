@@ -1,0 +1,12 @@
+<map id="veins::BaseApplLayer" name="veins::BaseApplLayer">
+<area shape="rect" id="node7" href="$classveins_1_1_demo_base_appl_layer.html" title="Demo application layer base class. " alt="" coords="908,132,1092,159"/>
+<area shape="rect" id="node2" href="$classveins_1_1_base_layer.html" title="A very simple layer template. " alt="" coords="540,132,663,159"/>
+<area shape="rect" id="node3" href="$classveins_1_1_battery_access.html" title="Extends BaseModule by several methods which provide access to the battery module. ..." alt="" coords="345,132,492,159"/>
+<area shape="rect" id="node4" href="$classveins_1_1_base_module.html" title="Base class for all simple modules of a host. " alt="" coords="164,132,297,159"/>
+<area shape="rect" id="node8" href="$classveins_1_1_a_s_l_app_r_s_u.html" title="This is a stub for a typical Veins application layer. " alt="" coords="1160,5,1299,32"/>
+<area shape="rect" id="node9" href="$classveins_1_1_a_s_l_app_r_s_u_attack.html" title="This is a stub for a typical Veins application layer. " alt="" coords="1141,56,1317,83"/>
+<area shape="rect" id="node10" href="$classveins_1_1_a_s_l_app_veh.html" title="This is a stub for a typical Veins application layer. " alt="" coords="1163,107,1295,133"/>
+<area shape="rect" id="node11" href="$classveins_1_1_my_veins_app.html" title="This is a stub for a typical Veins application layer. " alt="" coords="1162,157,1297,184"/>
+<area shape="rect" id="node12" href="$classveins_1_1_tra_c_i_demo11p.html" title="A tutorial demo for TraCI. " alt="" coords="1154,208,1305,235"/>
+<area shape="rect" id="node13" href="$classveins_1_1_tra_c_i_demo_r_s_u11p.html" title="Small RSU Demo using 11p. " alt="" coords="1140,259,1319,285"/>
+</map>

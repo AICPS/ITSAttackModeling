@@ -1,0 +1,9 @@
+<map id="veins::ASLAppVeh::handleLowerMsg" name="veins::ASLAppVeh::handleLowerMsg">
+<area shape="rect" id="node2" href="$classveins_1_1_demo_base_appl_layer.html#a0457eac366e27a0cd301e764ee955504" title="handle messages from below and calls the onWSM, onBSM, and onWSA functions accordingly ..." alt="" coords="232,104,416,145"/>
+<area shape="rect" id="node6" href="$classveins_1_1_a_s_l_app_veh.html#ad52e7599c04817f9fca99a6f853df9b9" title="veins::ASLAppVeh::onASL" alt="" coords="235,209,413,235"/>
+<area shape="rect" id="node3" href="$classveins_1_1_demo_base_appl_layer.html#a0c777a569144188afa113afd62daa043" title="this function is called upon receiving a DemoSafetyMessage, also referred to as a beacon ..." alt="" coords="475,5,659,47"/>
+<area shape="rect" id="node4" href="$classveins_1_1_demo_base_appl_layer.html#a4288b81a3cdf4c5dad6b1abd99b6e2c6" title="this function is called upon receiving a DemoServiceAdvertisement " alt="" coords="475,71,659,112"/>
+<area shape="rect" id="node5" href="$classveins_1_1_demo_base_appl_layer.html#a1b499d1dc3483e09a9e989a9488c0b59" title="this function is called upon receiving a BaseFrame1609_4 " alt="" coords="475,136,659,177"/>
+<area shape="rect" id="node7" href="$classveins_1_1_tra_c_i_mobility.html#a6eab92e98c45232e1c0d0b32aec2f127" title="veins::TraCIMobility\l::getVehicleCommandInterface" alt="" coords="465,201,668,243"/>
+<area shape="rect" id="node8" href="$classveins_1_1_tra_c_i_command_interface_1_1_vehicle.html#aacb62beca8930605925bc2d621b9d92d" title="veins::TraCICommandInterface\l::Vehicle::setParameter" alt="" coords="464,267,669,308"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="veins::ASLAppRSU::onASLBSM" name="veins::ASLAppRSU::onASLBSM">
+<area shape="rect" id="node2" href="$classveins_1_1_tra_c_i_traffic_light_interface.html#a5c1b2e812da541d6212ecdfebdab5f34" title="veins::TraCITrafficLight\lInterface::getCurrentPhase" alt="" coords="289,5,467,47"/>
+<area shape="rect" id="node5" href="$classveins_1_1_demo_base_appl_layer_to_mac1609__4_interface.html#a778c4d8707cdb821a2f388b786493905" title="Returns the MAC address of this MAC module. " alt="" coords="286,71,470,127"/>
+<area shape="rect" id="node6" href="$classveins_1_1_tra_c_i_traffic_light_interface.html#a506f03d82d7d1af9cb13f71b17febd84" title="veins::TraCITrafficLight\lInterface::getRemainingDuration" alt="" coords="273,152,483,193"/>
+<area shape="rect" id="node7" href="$classveins_1_1_coord.html#aa003fb9d6788186697029ce7653eb9e7" title="Returns the length of this Coords position vector. " alt="" coords="309,218,447,245"/>
+<area shape="rect" id="node8" href="$classveins_1_1_a_s_l_app_r_s_u.html#aa09a0053a8b825751e0173c98a1391ac" title="veins::ASLAppRSU::populateASL" alt="" coords="268,269,488,295"/>
+<area shape="rect" id="node9" href="$classveins_1_1_demo_base_appl_layer.html#ac473178d13013063c13943d343a672f4" title="overloaded for error handling and stats recording purposes " alt="" coords="286,320,470,361"/>
+<area shape="rect" id="node3" href="$classveins_1_1_tra_c_i_traffic_light_interface.html#a8129dc298f48be082c042b30a70e3383" title="veins::TraCITrafficLight\lInterface::getCurrentLogic" alt="" coords="546,5,719,47"/>
+<area shape="rect" id="node4" href="$classveins_1_1_tra_c_i_traffic_light_program.html#a6f38d0a06779aac269572bba80901079" title="veins::TraCITrafficLight\lProgram::getLogic" alt="" coords="781,5,940,47"/>
+<area shape="rect" id="node10" href="$classveins_1_1_demo_base_appl_layer.html#a92eee52f9f934fa6118dbad5422f4269" title="helper function for error handling and stats recording purposes " alt="" coords="541,291,725,332"/>
+<area shape="rect" id="node11" href="$classveins_1_1_base_layer.html#a1873d6e3fc6d92cf8482b39f1c5ac6c8" title="Sends a message to the lower layer. " alt="" coords="536,357,729,383"/>
+<area shape="rect" id="node12" href="$classveins_1_1_base_layer.html#a33f4f320f4b6c4ec48651847338ff47f" title="veins::BaseLayer::record\lPacket" alt="" coords="777,349,944,391"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="veins::ASLAppRSU::populateASL" name="veins::ASLAppRSU::populateASL">
+<area shape="rect" id="node2" href="$classveins_1_1_a_s_l_app_r_s_u.html#afb5808f9c98e59bc111286a79ab96cc0" title="veins::ASLAppRSU::onASLBSM" alt="" coords="273,13,488,39"/>
+<area shape="rect" id="node3" href="$classveins_1_1_a_s_l_app_r_s_u.html#a48ff76681b1aaa593eb957cd415d6908" title="handle messages from below and calls the onWSM, onBSM, and onWSA functions accordingly ..." alt="" coords="536,5,720,47"/>
+</map>

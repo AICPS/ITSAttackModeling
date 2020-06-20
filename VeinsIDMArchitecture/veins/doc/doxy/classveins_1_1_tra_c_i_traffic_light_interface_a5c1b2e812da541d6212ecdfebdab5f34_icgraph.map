@@ -1,0 +1,7 @@
+<map id="veins::TraCITrafficLightInterface::getCurrentPhase" name="veins::TraCITrafficLightInterface::getCurrentPhase">
+<area shape="rect" id="node2" href="$classveins_1_1_tra_c_i_traffic_light_interface.html#a6f10a76eb908bd9e9b203738948e53a5" title="veins::TraCITrafficLight\lInterface::getCurrentState" alt="" coords="253,5,426,47"/>
+<area shape="rect" id="node3" href="$classveins_1_1_a_s_l_app_r_s_u_attack.html#a9850590ae07d0d456361b684b529893e" title="veins::ASLAppRSUAttack\l::onASLBSM" alt="" coords="251,71,427,112"/>
+<area shape="rect" id="node5" href="$classveins_1_1_a_s_l_app_r_s_u.html#afb5808f9c98e59bc111286a79ab96cc0" title="veins::ASLAppRSU::onASLBSM" alt="" coords="232,138,447,165"/>
+<area shape="rect" id="node4" href="$classveins_1_1_a_s_l_app_r_s_u_attack.html#afa38e3890a8969a402d88d8d235cafd8" title="handle messages from below and calls the onWSM, onBSM, and onWSA functions accordingly ..." alt="" coords="499,68,675,109"/>
+<area shape="rect" id="node6" href="$classveins_1_1_a_s_l_app_r_s_u.html#a48ff76681b1aaa593eb957cd415d6908" title="handle messages from below and calls the onWSM, onBSM, and onWSA functions accordingly ..." alt="" coords="495,133,679,175"/>
+</map>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sun 22 Mar 2020 05:18:58 PM PDT by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="asl_simple2.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="asl_simple2.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/anthl10/Programming/omnetpp-5.5.1/samples/veins/examples/veins_asl/loop_detectors_asl2.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e2Detector id="e2Detector_G5G4_0_2" lane="G5G4_0" pos="600.00" length="5.00" freq="900.00" file="e2Detector_G5G4_0_2.xml"/>
+    <e2Detector id="e2Detector_G5G4_0_3" lane="G5G4_0" pos="885.00" length="5.00" freq="900.00" file="e2Detector_G5G4_0_3.xml"/>
+    <e2Detector id="e2Detector_H4G4_0_0" lane="H4G4_0" pos="600.00" length="5.00" freq="900.00" file="e2Detector_H4G4_0_0.xml"/>
+    <e2Detector id="e2Detector_H4G4_0_1" lane="H4G4_0" pos="885.00" length="5.00" freq="900.00" file="e2Detector_H4G4_0_1.xml"/>
+</additional>

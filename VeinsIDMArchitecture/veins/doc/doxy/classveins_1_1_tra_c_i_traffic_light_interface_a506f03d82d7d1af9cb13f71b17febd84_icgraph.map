@@ -1,0 +1,6 @@
+<map id="veins::TraCITrafficLightInterface::getRemainingDuration" name="veins::TraCITrafficLightInterface::getRemainingDuration">
+<area shape="rect" id="node2" href="$classveins_1_1_a_s_l_app_r_s_u_attack.html#a9850590ae07d0d456361b684b529893e" title="veins::ASLAppRSUAttack\l::onASLBSM" alt="" coords="283,8,459,49"/>
+<area shape="rect" id="node4" href="$classveins_1_1_a_s_l_app_r_s_u.html#afb5808f9c98e59bc111286a79ab96cc0" title="veins::ASLAppRSU::onASLBSM" alt="" coords="264,75,479,102"/>
+<area shape="rect" id="node3" href="$classveins_1_1_a_s_l_app_r_s_u_attack.html#afa38e3890a8969a402d88d8d235cafd8" title="handle messages from below and calls the onWSM, onBSM, and onWSA functions accordingly ..." alt="" coords="531,5,707,47"/>
+<area shape="rect" id="node5" href="$classveins_1_1_a_s_l_app_r_s_u.html#a48ff76681b1aaa593eb957cd415d6908" title="handle messages from below and calls the onWSM, onBSM, and onWSA functions accordingly ..." alt="" coords="527,71,711,112"/>
+</map>

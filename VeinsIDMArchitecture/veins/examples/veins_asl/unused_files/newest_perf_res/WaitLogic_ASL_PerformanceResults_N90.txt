@@ -1,0 +1,19 @@
+
+ Number of vehicles is: 90
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 1.46002
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.252912
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 6.53333
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 225
+numvehiclespassed2ew: 153
+Total cars that exited NS is: 0
+Total cars that exited EW is: 152
+Estimated EW waiting time ratio is: 0.0108708

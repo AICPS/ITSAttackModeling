@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+
+<launch>
+    <copy file="asl_simple2.net.xml" />
+    <copy file="route_veh_50.rou.xml"/>
+    <copy file="loop_detectors_asl2.add.xml" type="additional"/>
+    <copy file="manhattan_asl.sumo.cfg" type="config" />
+</launch>
+

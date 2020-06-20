@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- carFollowModel="IDM" --> 
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ASL_VTYPE" length="5.0" minGap="2" carFollowModel="IDM" accel="1" decel="3" tau="1.5" delta="32" maxSpeed="15.0"/>
+    <route id="eastwest" color="1,1,0" edges="H4G4 G4F4"/>
+    <route id="northsouth" color="1,1,0" edges="G5G4 G4G3"/>
+
+
+    </routes>

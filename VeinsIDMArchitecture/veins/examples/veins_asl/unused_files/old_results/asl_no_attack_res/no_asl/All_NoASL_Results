@@ -1,0 +1,228 @@
+
+ Number of vehicles is: 100
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 1.12684
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.214642
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 89.61
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 174
+numvehiclespassed2ew: 130
+Total cars that exited NS is: 0
+Total cars that exited EW is: 129
+Estimated EW waiting time ratio is: 0.149101
+
+ Number of vehicles is: 10
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 11.5258
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.234609
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 69
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 106
+numvehiclespassed2ew: 140
+Total cars that exited NS is: 0
+Total cars that exited EW is: 141
+Estimated EW waiting time ratio is: 0.114809
+
+ Number of vehicles is: 110
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 0.682314
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.148087
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 162.227
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 128
+numvehiclespassed2ew: 90
+Total cars that exited NS is: 0
+Total cars that exited EW is: 89
+Estimated EW waiting time ratio is: 0.269929
+
+ Number of vehicles is: 120
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 0.282993
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.0665557
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 432.967
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 61
+numvehiclespassed2ew: 41
+Total cars that exited NS is: 0
+Total cars that exited EW is: 40
+Estimated EW waiting time ratio is: 0.72041
+
+ Number of vehicles is: 20
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 6.79589
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.279534
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 116
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 157
+numvehiclespassed2ew: 169
+Total cars that exited NS is: 0
+Total cars that exited EW is: 168
+Estimated EW waiting time ratio is: 0.193012
+
+ Number of vehicles is: 30
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 4.50199
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.264559
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 156.667
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 125
+numvehiclespassed2ew: 159
+Total cars that exited NS is: 0
+Total cars that exited EW is: 159
+Estimated EW waiting time ratio is: 0.260677
+
+ Number of vehicles is: 40
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 3.36848
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.28619
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 141
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 213
+numvehiclespassed2ew: 173
+Total cars that exited NS is: 0
+Total cars that exited EW is: 172
+Estimated EW waiting time ratio is: 0.234609
+
+ Number of vehicles is: 50
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 2.68974
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.284526
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 125
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 215
+numvehiclespassed2ew: 172
+Total cars that exited NS is: 0
+Total cars that exited EW is: 171
+Estimated EW waiting time ratio is: 0.207987
+
+ Number of vehicles is: 60
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 2.24011
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.284526
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 104.167
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 222
+numvehiclespassed2ew: 172
+Total cars that exited NS is: 0
+Total cars that exited EW is: 171
+Estimated EW waiting time ratio is: 0.173322
+
+ Number of vehicles is: 70
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 1.91959
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.269551
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 89.2857
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 208
+numvehiclespassed2ew: 163
+Total cars that exited NS is: 0
+Total cars that exited EW is: 162
+Estimated EW waiting time ratio is: 0.148562
+
+ Number of vehicles is: 80
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 1.67959
+EW total steps 601
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 0.261231
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 78.0125
+ACTUAL total simulation time is: 600
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 211
+numvehiclespassed2ew: 158
+Total cars that exited NS is: 0
+Total cars that exited EW is: 157
+Estimated EW waiting time ratio is: 0.129804
+
+ Number of vehicles is: 90
+
+NS Final Global Mean Speed is: 15
+EW Final Global Mean Speed is: 1.59186
+EW total steps 1
+NS Alternate Junction Avg Flow Rate is: 0
+EW Alternate Junction Avg Flow Rate is: 1
+NS total waiting time (s) is: 0
+EW total waiting time (s) is: 0
+ACTUAL total simulation time is: -553.103
+
+numvehiclespassed1ns: 0
+numvehiclespassed2ns: 0
+numvehiclespassed1ew: 14
+numvehiclespassed2ew: 2
+Total cars that exited NS is: 0
+Total cars that exited EW is: 1
+Estimated EW waiting time ratio is: 0

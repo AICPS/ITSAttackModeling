@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri 21 Feb 2020 03:20:42 PM PST by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="asl_net.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/anthl10/Programming/sumo/tests/complex/tutorial/manhattan/data/asl_simple_net.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="/home/anthl10/Programming/sumo/tests/complex/tutorial/manhattan/data/asl_routes_simple.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+departPos="last"
+
+</configuration>
+
+DEPART SPEED IS KEY FOR THE NUMBER OF INITIAL VEHICLES IN THE ROADS
+-->
+<!-- carFollowModel="IDM" --> 
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ASL_VTYPE" length="5.0" minGap="2.0" carFollowModel="IDM" accel="3" decel="3" tau="1.5" maxSpeed="15"/>
+    <route id="eastwest" color="1,1,0" edges="H4G4 G4F4"/>
+    <route id="northsouth" color="1,1,0" edges="G5G4 G4G3"/>
+   
+<vehicle id="0" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="0.000000" color="1,1,0"/>
+<vehicle id="1" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="7.000000" color="1,1,0"/>
+<vehicle id="2" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="14.000000" color="1,1,0"/>
+<vehicle id="3" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="21.000000" color="1,1,0"/>
+<vehicle id="4" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="39.774725" color="1,1,0"/>
+<vehicle id="5" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="46.774725" color="1,1,0"/>
+<vehicle id="6" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="53.774725" color="1,1,0"/>
+<vehicle id="7" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="60.774725" color="1,1,0"/>
+<vehicle id="8" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="67.774725" color="1,1,0"/>
+<vehicle id="9" type="ASL_VTYPE" route="eastwest" depart="0" departSpeed="0.000000" departPos="74.774725" color="1,1,0"/>
+
+
+</routes>
